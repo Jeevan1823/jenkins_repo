@@ -1,0 +1,26 @@
+Started by user [8mha:////4BfAGNSd/lKOmMiPK2bvLjfmcRBXy5AdUgTjKEC20Mx6AAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgY+/dLi1CL9rNTUssQ8XUMAODv+88MAAAA=[0mJeevan 
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/job1
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/Jeevan1823/DEV_central_repo.git
+ > git init /var/lib/jenkins/workspace/job1 # timeout=10
+Fetching upstream changes from https://github.com/Jeevan1823/DEV_central_repo.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.0'
+ > git fetch --tags --force --progress -- https://github.com/Jeevan1823/DEV_central_repo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Jeevan1823/DEV_central_repo.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision e049ea4a145287ed45a7a92f5b56c9deac970976 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e049ea4a145287ed45a7a92f5b56c9deac970976 # timeout=10
+Commit message: "Merge pull request #1 from Jeevan1823/branch1"
+First time build. Skipping changelog.
+[job1] $ /bin/sh -xe /tmp/jenkins2287050116685476311.sh
++ make ABC.exe
+/tmp/jenkins2287050116685476311.sh: 2: make: not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
