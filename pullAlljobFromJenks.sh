@@ -8,4 +8,4 @@ echo "====================Adding all files to git ==========================="
 git add * 
  echo "==============================committig all files to git=========================================="
 
- git commit -m "commiting all files from jenkins job $date"
+ git commit -m "commiting all files from jenkins job dates  :- $(date)"
