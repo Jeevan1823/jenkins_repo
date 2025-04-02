@@ -1,0 +1,16 @@
+Started by user [8mha:////4Oo1Flf9jFORnN+LtHzuXJbu6385h1xDjyWg2OXSaePFAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL9rNTUssQ8AHYaaFPBAAAA[0mJeevan
+Running as SYSTEM
+Building remotely on [8mha:////4O++d2zhqE3vvd3ToM7IgbWTYXzB28S+Imc8bHKay15eAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgYx/eT83ILSktQi/TygOw11i3MSy1INAZAPtfzLAAAA[0mnode1-slave1 (label1) in workspace /home/ec2-user/home/ec2-user/jenkins/home/ec2-user/jenkins/workspace/job2
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /home/ec2-user/home/ec2-user/jenkins/home/ec2-user/jenkins/workspace/job2/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Jeevan1823/DEV_central_repo.git # timeout=10
+Fetching upstream changes from https://github.com/Jeevan1823/DEV_central_repo.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.5'
+ > git fetch --tags --force --progress -- https://github.com/Jeevan1823/DEV_central_repo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/maiin^{commit} # timeout=10
+ > git rev-parse origin/maiin^{commit} # timeout=10
+ERROR: Couldn't find any revision to build. Verify the repository and branch configuration for this job.
+Finished: FAILURE

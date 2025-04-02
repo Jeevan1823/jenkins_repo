@@ -1,0 +1,118 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson>
+  <disabledAdministrativeMonitors/>
+  <version>2.492.2</version>
+  <numExecutors>2</numExecutors>
+  <mode>NORMAL</mode>
+  <useSecurity>true</useSecurity>
+  <authorizationStrategy class="hudson.security.GlobalMatrixAuthorizationStrategy">
+    <permission>USER:com.cloudbees.plugins.credentials.CredentialsProvider.Create:Bhoomi</permission>
+    <permission>USER:com.cloudbees.plugins.credentials.CredentialsProvider.Create:Jeevan</permission>
+    <permission>USER:com.cloudbees.plugins.credentials.CredentialsProvider.Delete:Bhoomi</permission>
+    <permission>USER:com.cloudbees.plugins.credentials.CredentialsProvider.Delete:Jeevan</permission>
+    <permission>USER:com.cloudbees.plugins.credentials.CredentialsProvider.ManageDomains:Bhoomi</permission>
+    <permission>USER:com.cloudbees.plugins.credentials.CredentialsProvider.ManageDomains:Jeevan</permission>
+    <permission>USER:com.cloudbees.plugins.credentials.CredentialsProvider.Update:Bhoomi</permission>
+    <permission>USER:com.cloudbees.plugins.credentials.CredentialsProvider.Update:Jeevan</permission>
+    <permission>USER:com.cloudbees.plugins.credentials.CredentialsProvider.View:Bhoomi</permission>
+    <permission>USER:com.cloudbees.plugins.credentials.CredentialsProvider.View:Jeevan</permission>
+    <permission>USER:com.cloudbees.plugins.credentials.CredentialsProvider.View:Lakshmi</permission>
+    <permission>USER:hudson.model.Computer.Build:Bhoomi</permission>
+    <permission>USER:hudson.model.Computer.Build:Jeevan</permission>
+    <permission>USER:hudson.model.Computer.Configure:Bhoomi</permission>
+    <permission>USER:hudson.model.Computer.Configure:Jeevan</permission>
+    <permission>USER:hudson.model.Computer.Connect:Bhoomi</permission>
+    <permission>USER:hudson.model.Computer.Connect:Jeevan</permission>
+    <permission>USER:hudson.model.Computer.Create:Bhoomi</permission>
+    <permission>USER:hudson.model.Computer.Create:Jeevan</permission>
+    <permission>USER:hudson.model.Computer.Delete:Bhoomi</permission>
+    <permission>USER:hudson.model.Computer.Delete:Jeevan</permission>
+    <permission>USER:hudson.model.Computer.Disconnect:Bhoomi</permission>
+    <permission>USER:hudson.model.Computer.Disconnect:Jeevan</permission>
+    <permission>USER:hudson.model.Computer.Provision:Bhoomi</permission>
+    <permission>USER:hudson.model.Computer.Provision:Jeevan</permission>
+    <permission>USER:hudson.model.Hudson.Administer:Bhoomi</permission>
+    <permission>USER:hudson.model.Hudson.Administer:Jeevan</permission>
+    <permission>USER:hudson.model.Hudson.Read:Bhoomi</permission>
+    <permission>USER:hudson.model.Hudson.Read:Jeevan</permission>
+    <permission>USER:hudson.model.Hudson.Read:Lakshmi</permission>
+    <permission>USER:hudson.model.Item.Build:Bhoomi</permission>
+    <permission>USER:hudson.model.Item.Build:Jeevan</permission>
+    <permission>USER:hudson.model.Item.Cancel:Bhoomi</permission>
+    <permission>USER:hudson.model.Item.Cancel:Jeevan</permission>
+    <permission>USER:hudson.model.Item.Configure:Bhoomi</permission>
+    <permission>USER:hudson.model.Item.Configure:Jeevan</permission>
+    <permission>USER:hudson.model.Item.Create:Bhoomi</permission>
+    <permission>USER:hudson.model.Item.Create:Jeevan</permission>
+    <permission>USER:hudson.model.Item.Delete:Bhoomi</permission>
+    <permission>USER:hudson.model.Item.Delete:Jeevan</permission>
+    <permission>USER:hudson.model.Item.Discover:Bhoomi</permission>
+    <permission>USER:hudson.model.Item.Discover:Jeevan</permission>
+    <permission>USER:hudson.model.Item.Move:Bhoomi</permission>
+    <permission>USER:hudson.model.Item.Move:Jeevan</permission>
+    <permission>USER:hudson.model.Item.Read:Bhoomi</permission>
+    <permission>USER:hudson.model.Item.Read:Jeevan</permission>
+    <permission>USER:hudson.model.Item.Read:Lakshmi</permission>
+    <permission>USER:hudson.model.Item.Workspace:Bhoomi</permission>
+    <permission>USER:hudson.model.Item.Workspace:Jeevan</permission>
+    <permission>USER:hudson.model.Item.Workspace:Lakshmi</permission>
+    <permission>USER:hudson.model.Run.Delete:Bhoomi</permission>
+    <permission>USER:hudson.model.Run.Delete:Jeevan</permission>
+    <permission>USER:hudson.model.Run.Replay:Bhoomi</permission>
+    <permission>USER:hudson.model.Run.Replay:Jeevan</permission>
+    <permission>USER:hudson.model.Run.Update:Bhoomi</permission>
+    <permission>USER:hudson.model.Run.Update:Jeevan</permission>
+    <permission>USER:hudson.model.View.Configure:Bhoomi</permission>
+    <permission>USER:hudson.model.View.Configure:Jeevan</permission>
+    <permission>USER:hudson.model.View.Create:Bhoomi</permission>
+    <permission>USER:hudson.model.View.Create:Jeevan</permission>
+    <permission>USER:hudson.model.View.Delete:Bhoomi</permission>
+    <permission>USER:hudson.model.View.Delete:Jeevan</permission>
+    <permission>USER:hudson.model.View.Read:Bhoomi</permission>
+    <permission>USER:hudson.model.View.Read:Jeevan</permission>
+    <permission>USER:hudson.model.View.Read:Lakshmi</permission>
+    <permission>USER:hudson.scm.SCM.Tag:Bhoomi</permission>
+    <permission>USER:hudson.scm.SCM.Tag:Jeevan</permission>
+    <permission>USER:jenkins.metrics.api.Metrics.HealthCheck:Bhoomi</permission>
+    <permission>USER:jenkins.metrics.api.Metrics.HealthCheck:Jeevan</permission>
+    <permission>USER:jenkins.metrics.api.Metrics.HealthCheck:Lakshmi</permission>
+    <permission>USER:jenkins.metrics.api.Metrics.ThreadDump:Bhoomi</permission>
+    <permission>USER:jenkins.metrics.api.Metrics.ThreadDump:Jeevan</permission>
+    <permission>USER:jenkins.metrics.api.Metrics.ThreadDump:Lakshmi</permission>
+    <permission>USER:jenkins.metrics.api.Metrics.View:Bhoomi</permission>
+    <permission>USER:jenkins.metrics.api.Metrics.View:Jeevan</permission>
+    <permission>USER:jenkins.metrics.api.Metrics.View:Lakshmi</permission>
+  </authorizationStrategy>
+  <securityRealm class="hudson.security.HudsonPrivateSecurityRealm">
+    <disableSignup>false</disableSignup>
+    <enableCaptcha>false</enableCaptcha>
+  </securityRealm>
+  <disableRememberMe>false</disableRememberMe>
+  <projectNamingStrategy class="jenkins.model.ProjectNamingStrategy$DefaultProjectNamingStrategy"/>
+  <workspaceDir>${JENKINS_HOME}/workspace/${ITEM_FULL_NAME}</workspaceDir>
+  <buildsDir>${ITEM_ROOTDIR}/builds</buildsDir>
+  <markupFormatter class="hudson.markup.EscapedMarkupFormatter"/>
+  <jdks/>
+  <viewsTabBar class="hudson.views.DefaultViewsTabBar"/>
+  <myViewsTabBar class="hudson.views.DefaultMyViewsTabBar"/>
+  <clouds/>
+  <scmCheckoutRetryCount>0</scmCheckoutRetryCount>
+  <views>
+    <hudson.model.AllView>
+      <owner class="hudson" reference="../../.."/>
+      <name>all</name>
+      <filterExecutors>false</filterExecutors>
+      <filterQueue>false</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+    </hudson.model.AllView>
+  </views>
+  <primaryView>all</primaryView>
+  <slaveAgentPort>-1</slaveAgentPort>
+  <label>node1-slave1</label>
+  <crumbIssuer class="hudson.security.csrf.DefaultCrumbIssuer">
+    <excludeClientIPFromCrumb>false</excludeClientIPFromCrumb>
+  </crumbIssuer>
+  <nodeProperties/>
+  <globalNodeProperties/>
+  <nodeRenameMigrationNeeded>false</nodeRenameMigrationNeeded>
+</hudson>

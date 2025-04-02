@@ -1,0 +1,9 @@
+Started at Tue Apr 01 20:17:25 UTC 2025
+Checking job1
+Deleting /var/lib/jenkins/workspace/job1 on Jenkins
+Deleting /home/ec2-user/home/ec2-user/jenkins/home/ec2-user/jenkins/workspace/job1 on node1-slave1
+Deleting /home/ec2-user/jenkins/workspace/job1 on node2-slave2
+Checking job2
+Deleting /var/lib/jenkins/workspace/job2 on Jenkins
+Deleting /home/ec2-user/jenkins/workspace/job2 on node2-slave2
+Finished at Tue Apr 01 20:17:25 UTC 2025. 24ms
